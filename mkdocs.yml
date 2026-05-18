@@ -104,7 +104,8 @@ nav:
     # 3. Add a line below (same format): - "Your Project Title": projects/your-project-name.md
     # 4. Add a project card on docs/projects/index.md
   - Publications: publications.md
-  - Experience: experience.md
+  - App:
+    - apps/index.md
   - blog: 
     - blog/index.md
   - Contact: contact.md

@@ -3,124 +3,95 @@ hide:
   - toc
   - navigation
 ---
-<!--
-CHECKLIST FOR THIS PAGE:
-- [ ] Replace [YOUR NAME] with your full name (3 places)
-- [ ] Replace [YOUR JOB TITLE] with your current or target role
-- [ ] Replace [YOUR TAGLINE] with a short phrase describing your focus
-- [ ] Rewrite the About Me paragraph with your own words
-- [ ] Replace assets/images/profile.png with your actual photo (keep the filename or update it below)
-- [ ] Replace assets/images/about.png with your own image (a field photo, map, or workspace shot)
-- [ ] Edit the skill cards to match your actual skills (add, remove, or rename cards as needed)
-- [ ] Update GitHub and LinkedIn links in the Connect section
-- [ ] Add your CV PDF to docs/assets/ and update the filename in the Download CV button
--->
 
+## Xootay Gox Yi
 
+*Xootay*, en wolof, c'est regarder. Regarder loin, regarder en profondeur.
+*Gox yi*, ce sont les territoires — ces espaces que l'on arpente, que l'on survole, que l'on mesure.
 
-<div class="hero">
-  <img src="assets/images/profile.jpg" alt="Abdou Aziz Darc" class="profile-photo">
-  <h1>Abdou Aziz Darc</h1>
-  <p><strong>Géographe, Géomaticien</strong></p>
-  <p><em>[YOUR TAGLINE — e.g., Turning spatial data into insights | GIS | Remote Sensing | Python]</em></p>
+Mais un territoire ne se réduit pas à ses coordonnées. Il y a ce que la carte montre, et ce qu'elle ne dit pas encore — la texture du sol sous le drone, l'eau qui chemine sous la forêt de mangrove, la parcelle d'un paysan qui attend d'être reconnue.
+
+Ce site est une tentative modeste de saisir tout ça. Pas un portfolio parfait, mais un carnet de bord honnête : des projets, des outils, des erreurs, des apprentissages. Ce que je fais, comment je le fais, et pourquoi ça compte — ici, au Sénégal, en Afrique de l'Ouest.
+
+Tu y trouveras de la cartographie, du code, des réflexions de terrain. Et peut-être, entre les lignes, quelque chose sur ce que signifie regarder vraiment un territoire.
+
+---
+
+## Ce que vous trouverez ici
+
+<div class="grid cards" markdown>
+
+-   :material-map:{ .lg .middle } **Projets**
+
+    ---
+
+    Missions de cartographie drone, analyses SIG, études pédologiques, levés topographiques — des réalisations concrètes avec leurs méthodes et leurs livrables.
+
+    [Voir les projets :material-arrow-right:](projects/index.md){ .md-button }
+
+-   :material-post:{ .lg .middle } **Blog**
+
+    ---
+
+    Tutoriels techniques (PyQGIS, Python, Metashape), retours d'expérience terrain et réflexions sur la géomatique en Afrique de l'Ouest.
+
+    [Lire le blog :material-arrow-right:](blog/index.md){ .md-button }
+
+-   :material-flask:{ .lg .middle } **Applications & Lab**
+
+    ---
+
+    Scripts géospatiaux, outils d'automatisation et applications en développement — des expérimentations issues du terrain et hébergées sur GitLab.
+
+    [Voir les applications :material-arrow-right:](apps/index.md){ .md-button }
+
+-   :material-file-document:{ .lg .middle } **Publications**
+
+    ---
+
+    Mémoires académiques, rapports de recherche et productions écrites — des travaux sur l'hydrologie, la géomatique et l'environnement au Sénégal.
+
+    [Voir les publications :material-arrow-right:](publications/index.md){ .md-button }
+
 </div>
 
 ---
 
-## A propos de moi
+## Celui qui est derrière ce site
 
 <div class="about-section" markdown>
 <div class="about-text" markdown>
 
-[Replace this paragraph with your own bio. Write 3–4 sentences covering: your background and
-what you specialize in, the kinds of problems you work on, the tools and methods you use,
-and what you are currently looking for. Example below:]
+**Abdou Aziz Darc** — géographe, technicien supérieur en géomatique et télépilote basé à Diamniadio, Dakar. Cinq ans de terrain au Sénégal et en Afrique de l'Ouest, du Sine-Saloum à Kolda, du LIDAR à la cartographie pédologique.
 
-I am a geospatial data scientist with a background in remote sensing and machine learning.
-I work on extracting actionable insights from satellite imagery and large spatial datasets
-using Python, Google Earth Engine, and open-source GIS tools. I am passionate about applying
-GeoAI techniques to real-world challenges in land use mapping, climate monitoring, and urban
-planning. I am currently seeking opportunities in [YOUR TARGET ROLE] in [YOUR TARGET LOCATION].
+Ce que je fais au quotidien : voler des drones, produire des cartes, analyser des données spatiales, écrire du code pour automatiser ce qui peut l'être. Je travaille avec QGIS, Python, Agisoft Metashape, Google Earth Engine — et je continue d'apprendre.
+
+Pas un expert qui sait tout. Un praticien qui documente ce qu'il apprend.
 
 </div>
-
 <div class="about-image">
-  <img src="assets/images/about.jpg" alt="About">
+  <img src="assets/images/profile.jpg" alt="Abdou Aziz Darc">
 </div>
-
 </div>
-
----
-
-[View My Projects :material-arrow-right:](projects/index.md){ .md-button .md-button--primary }
-[Download CV :material-download:](assets/[YOUR-NAME]-CV.pdf){ .md-button }
-[View My blog :material-arrow-left:](blog/index.md){ .md-button .md-button--primary }
-
-
-
----
-
-## Skills
 
 <div class="grid cards" markdown>
 
--   :material-layers:{ .lg .middle } **GIS & Remote Sensing**
+-   :material-quadcopter: **Drone & Photogrammétrie**
 
-    ---
+    DJI Mavic 3 · Phantom 4 Pro · Matrice 300 LIDAR · Metashape · Pix4D
 
-    - QGIS, ArcGIS Pro, Google Earth Engine
-    - GDAL / OGR, GRASS GIS
-    - Multispectral and SAR image analysis
-    - Cloud Native Geospatial (COG, STAC, Zarr)
+-   :material-map: **SIG & Cartographie**
 
--   :material-code-braces:{ .lg .middle } **Programming**
+    QGIS · ArcGIS Pro · SAGA GIS · QField · PyQGIS
 
-    ---
+-   :material-satellite-variant: **Télédétection**
 
-    - Python — GeoPandas, NumPy, Pandas, Matplotlib
-    - R — sf, terra, ggplot2
-    - JavaScript — Leaflet, MapLibre GL
-    - SQL, PostgreSQL + PostGIS
+    ENVI · Google Earth Engine · ERDAS · Classifications · NDVI/NDRE
 
--   :material-star-four-points:{ .lg .middle } **Machine Learning & GeoAI**
+-   :material-code-braces: **Programmation**
 
-    ---
+    Python · GeoPandas · Rasterio · R · HTML/CSS
 
-    - Supervised classification — Random Forest, XGBoost
-    - Deep learning for image segmentation — U-Net, SAM
-    - scikit-learn, PyTorch, TensorFlow
-    - Object detection in satellite imagery
-
--   :material-earth:{ .lg .middle } **Web Mapping & Data**
-
-    ---
-
-    - Leaflet.js, Folium, MapLibre GL JS
-    - Cloud storage — AWS S3, Google Cloud Storage
-    - Data formats — GeoTIFF, GeoParquet, NetCDF
-    - Streamlit for data-driven web apps
-
--   :material-database:{ .lg .middle } **Data & Cloud**
-
-    ---
-
-    - PostgreSQL + PostGIS
-    - Cloud storage: AWS S3, Google Cloud Storage
-    - Data formats: GeoJSON, GeoTIFF, NetCDF, Zarr, GeoParquet
-
--   :material-airplane:{ .lg .middle } **Drone / UAV Data Processing**
-
-    ---  
-
-    - Mission planning and flight operations
-    - Photogrammetry: Agisoft Metashape, OpenDroneMap
-    - Point cloud processing: CloudCompare, PDAL
 </div>
 
-
----
-
-## Connect
-
-[GitHub](https://github.com/[YOUR-GITHUB-USERNAME]){ .md-button }
-[LinkedIn](https://linkedin.com/in/[YOUR-LINKEDIN-USERNAME]){ .md-button }
+[Me connaître davantage :material-arrow-right:](contact.md){ .md-button }
