@@ -3,5 +3,20 @@
 authors:
   darc:
     name: Abdou Aziz Darc
-    description: Géographe · Technicien Supérieur en Géomatique · Télépilote
+    description: Géographe · Technicien Supérieur en Géomatique · Télépilote drone
+    avatar: https://github.com/Darcman0.png
+
+  sirakatou:
+    name: Sirakatou Coly
+    description: Technicien Supérieur en Géomatique
+    avatar: https://github.com/Darcman0.png
+
+  mDieng:
+    name: Mohamed Dieng
+    description: Géomaticien · Télépilote drone
+    avatar: https://github.com/mohameddieng.png
+
+  auguste:
+    name: Auguste Joachim Badji
+    description: Technicien Supérieur en Géomatique
     avatar: https://github.com/Darcman0.png

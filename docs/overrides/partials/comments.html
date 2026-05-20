@@ -1,0 +1,26 @@
+{% if page.meta.comments != false and "blog/" in page.url %}
+<h2 id="commentaires">Commentaires</h2>
+
+{% if not config.dev_addr %}
+<script src="https://giscus.app/client.js"
+        data-repo="Darcman0/xootayugox.github.io"
+        data-repo-id="R_kgDOSfasYQ"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOSfasYc4C9bGD"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="fr"
+        crossorigin="anonymous"
+        async>
+</script>
+
+<p style="color: var(--md-default-fg-color--light); font-style: italic; font-size: 0.85rem;">
+    💬 Les commentaires sont disponibles une fois le site déployé en ligne.
+  </p>
+
+{% endif %}
+{% endif %}

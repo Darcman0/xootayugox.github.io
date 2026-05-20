@@ -6,12 +6,13 @@ hide:
 
 ## Xootay Gox Yi
 
-*Xootay*, en wolof, c'est regarder. Regarder loin, regarder en profondeur.
-*Gox yi*, ce sont les territoires — ces espaces que l'on arpente, que l'on survole, que l'on mesure.
+> _**Xootay**_, c'est regarder. Regarder loin, regarder en profondeur.
 
-Mais un territoire ne se réduit pas à ses coordonnées. Il y a ce que la carte montre, et ce qu'elle ne dit pas encore — la texture du sol sous le drone, l'eau qui chemine sous la forêt de mangrove, la parcelle d'un paysan qui attend d'être reconnue.
+> _**Gox yi**_, ce sont les territoires: ces espaces que l'on arpente, que l'on survole, que l'on mesure.
 
-Ce site est une tentative modeste de saisir tout ça. Pas un portfolio parfait, mais un carnet de bord honnête : des projets, des outils, des erreurs, des apprentissages. Ce que je fais, comment je le fais, et pourquoi ça compte — ici, au Sénégal, en Afrique de l'Ouest.
+Mais un territoire ne se réduit pas à ses coordonnées. Il y a ce que la carte montre, et ce qu'elle ne dit pas encore. La texture du sol sous le drone, l'eau qui chemine sous la forêt de mangrove, la parcelle d'un paysan qui attend d'être reconnue.
+
+Ce site est une tentative modeste de saisir tout ça. Pas un portfolio parfait, mais un carnet de bord honnête : des projets, des outils, des erreurs, des apprentissages. Ce que je fais, comment je le fais, et pourquoi ça compte. ici, au Sénégal, en Afrique de l'Ouest.
 
 Tu y trouveras de la cartographie, du code, des réflexions de terrain. Et peut-être, entre les lignes, quelque chose sur ce que signifie regarder vraiment un territoire.
 
@@ -25,7 +26,7 @@ Tu y trouveras de la cartographie, du code, des réflexions de terrain. Et peut-
 
     ---
 
-    Missions de cartographie drone, analyses SIG, études pédologiques, levés topographiques — des réalisations concrètes avec leurs méthodes et leurs livrables.
+    Missions de cartographie drone, analyses SIG, études pédologiques, levés topographiques : des réalisations concrètes avec leurs méthodes et leurs livrables.
 
     [Voir les projets :material-arrow-right:](projects/index.md){ .md-button }
 
@@ -41,7 +42,7 @@ Tu y trouveras de la cartographie, du code, des réflexions de terrain. Et peut-
 
     ---
 
-    Scripts géospatiaux, outils d'automatisation et applications en développement — des expérimentations issues du terrain et hébergées sur GitLab.
+    Scripts géospatiaux, outils d'automatisation et applications en développement : des expérimentations issues du terrain et hébergées sur GitLab.
 
     [Voir les applications :material-arrow-right:](apps/index.md){ .md-button }
 
@@ -49,7 +50,7 @@ Tu y trouveras de la cartographie, du code, des réflexions de terrain. Et peut-
 
     ---
 
-    Mémoires académiques, rapports de recherche et productions écrites — des travaux sur l'hydrologie, la géomatique et l'environnement au Sénégal.
+    Mémoires académiques, rapports de recherche et productions écrites : des travaux sur l'hydrologie, la géomatique et l'environnement au Sénégal.
 
     [Voir les publications :material-arrow-right:](publications/index.md){ .md-button }
 

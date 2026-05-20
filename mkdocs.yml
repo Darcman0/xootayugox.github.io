@@ -15,16 +15,19 @@ site_url: "https://xootayugox.github.io"
 
 theme:
   name: material
+  custom_dir: docs/overrides
+
   # Icon used as both the site logo (header) and browser favicon.
   # Browse icons at https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/
   # and replace "material/earth" with any "material/..." icon name you prefer.
   font:
-    text: open sans
+    text: Merriweather Sans
     code: Roboto Mono
   language: fr
 
   icon:
-    logo: material/earth
+    logo: simple/artixlinux
+    favicon: simple/artixlinux
   palette:
     # To change the color, edit the 'primary' and 'accent' values below for both
     # the 'default' (light) and 'slate' (dark) schemes.
@@ -70,18 +73,21 @@ plugins:
   - search
   - meta
   - mkdocs-jupyter
+  - privacy
   - blog:
       archive_date_format: MM/yyyy
       archive_url_date_format: MM/yyyy
       post_url_format: "{slug}"
+      pagination_per_page: 5 # Nombre d'article dans la page index du blog par page 
+      archive_pagination_per_page: 10 # Nombre d'article dans archive du blog 
+      categories_pagination_per_page: 10 # Nombre d'article dans catégorie du blog 
 
 
 hooks:
-  - hooks/socialmedia.py  # pour partager les articles sur les réseaux sociaux
-
+  - hooks/socialmedia.py  # pour partager les articles sur les réseaux sociaux sur (X, Facebook, Twitter)
 
   
-copyright: "Copyright &copy; Abdou Aziz Darc - Xootayu gox yi"
+copyright: "Copyright &copy; Abdou Aziz Darc - Xootayu gox yi | simple/artixlinux **Localisation** "
 
 extra:
   social:
@@ -107,6 +113,6 @@ nav:
   - Publications: publications.md
   - App:
     - apps/index.md
-  - blog: 
+  - Blog: 
     - blog/index.md
   - Contact: contact.md

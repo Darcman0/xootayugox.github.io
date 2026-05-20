@@ -1,14 +1,15 @@
 ---
 date: 
-  created: 2025-05-18
+  created: 2025-05-19
 authors:
   - darc
+  - mDieng
 categories:
   - Enquetes
   - Synchronisation
 ---
 
-# Connection de l'API V1 de Kobotoolbox avec Microsoft Excel
+# Test 5
 
 
 ![](../assets/kobo_api_v1/article_presentation_img.jpg){.img-center}

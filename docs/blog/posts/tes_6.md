@@ -1,6 +1,6 @@
 ---
 date: 
-  created: 2025-05-18
+  created: 2025-05-11
 authors:
   - darc
 categories:
@@ -8,7 +8,7 @@ categories:
   - Synchronisation
 ---
 
-# Connection de l'API V1 de Kobotoolbox avec Microsoft Excel
+# test6
 
 
 ![](../assets/kobo_api_v1/article_presentation_img.jpg){.img-center}
