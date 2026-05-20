@@ -73,7 +73,7 @@ plugins:
   - search
   - meta
   - mkdocs-jupyter
-  - privacy
+
   - blog:
       archive_date_format: MM/yyyy
       archive_url_date_format: MM/yyyy
