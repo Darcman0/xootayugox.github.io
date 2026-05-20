@@ -15,7 +15,7 @@ site_url: "https://darcman0.github.io/xootayugox.github.io/"
 
 theme:
   name: material
-  custom_dir: docs/overrides
+  custom_dir: overrides
 
   # Icon used as both the site logo (header) and browser favicon.
   # Browse icons at https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/
@@ -92,7 +92,7 @@ copyright: "Copyright &copy; Abdou Aziz Darc - Xootayu gox yi | simple/artixlinu
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/Darcman0
+      link: https://github.com/darcman0
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/abdou-aziz-darc-678478169/
     - icon: fontawesome/brands/youtube
