@@ -28,7 +28,7 @@ Tu y trouveras de la cartographie, du code, des réflexions de terrain. Et peut-
 
     Missions de cartographie drone, analyses SIG, études pédologiques, levés topographiques : des réalisations concrètes avec leurs méthodes et leurs livrables.
 
-    [Voir les projets :material-arrow-right:](projects/index.md){ .md-button }
+    [Voir les projets :material-arrow-right:](project/index.md){ .md-button }
 
 -   :material-post:{ .lg .middle } **Blog**
 
@@ -44,7 +44,7 @@ Tu y trouveras de la cartographie, du code, des réflexions de terrain. Et peut-
 
     Scripts géospatiaux, outils d'automatisation et applications en développement : des expérimentations issues du terrain et hébergées sur GitLab.
 
-    [Voir les applications :material-arrow-right:](apps/index.md){ .md-button }
+    [Voir les applications :material-arrow-right:](app/index.md){ .md-button }
 
 -   :material-file-document:{ .lg .middle } **Publications**
 

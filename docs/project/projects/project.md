@@ -1,14 +1,17 @@
-<!--
-CHECKLIST FOR THIS PAGE (copy this file for each new project):
-- [ ] Replace [YOUR PROJECT TITLE] with your project title
-- [ ] Replace the hero image with your own (add to docs/assets/images/)
-- [ ] Update the Overview section
-- [ ] Update the Methods & Tools section
-- [ ] Update the Key Findings section
-- [ ] Update the Links section
-- [ ] Add a card for this project on docs/projects/index.md
-- [ ] Add a nav entry in mkdocs.yml
--->
+---
+title:  project
+description: Cartographie de 2 000 ha de reboisements de mangrove au Sine-Saloum et en Casamance pour WeForest. 300 sites, orthophotos à 2 cm de résolution.
+image: ""
+tags:
+  - DJI Air 2s
+  - Metashape
+  - QField
+  - Drone
+category: drone
+status: terminé
+date: "2026-01-30"
+link: ""
+---
 
 # [YOUR PROJECT TITLE]
 

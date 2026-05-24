@@ -1,124 +1,138 @@
 # ============================================================
-# PORTFOLIO CONFIGURATION
-# This file is in the YAML format and is very sensitive to 
-# spaces. Ensure to match the indentation level and spacing
-# of new items with existing ones
-
-# Edit all lines marked [YOUR ...] to customize your site
+# XOOTAY GOX YI — mkdocs.yml
+# Portfolio & Blog de Abdou Aziz Darc
+# Géographe · Géomaticien · Télépilote · Sénégal
 # ============================================================
 
-site_name: "Xootayu Gox Yi"
-site_description: "Portfolio of [YOUR NAME] — GIS, Remote Sensing, and Spatial Data Science"
-site_author: "Darc Abdou Aziz"
-# After your site is live, uncomment and set this to your actual GitHub Pages URL:
+site_name: "Xootay Gox Yi"
+site_description: "Cartographie, télédétection, drone et géomatique — tutoriels et réalisations par Abdou Aziz Darc, géomaticien au Sénégal."
+site_author: "Abdou Aziz Darc"
 site_url: "https://darcman0.github.io/xootayugox.github.io/"
 
 theme:
   name: material
   custom_dir: overrides
-
-  # Icon used as both the site logo (header) and browser favicon.
-  # Browse icons at https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/
-  # and replace "material/earth" with any "material/..." icon name you prefer.
   font:
     text: Merriweather Sans
     code: Roboto Mono
   language: fr
-
   icon:
     logo: simple/artixlinux
     favicon: simple/artixlinux
   palette:
-    # To change the color, edit the 'primary' and 'accent' values below for both
-    # the 'default' (light) and 'slate' (dark) schemes.
-    # Available colors: red, pink, purple, deep purple, indigo, blue, light blue,
-    # cyan, teal, green, light green, lime, yellow, amber, orange, deep orange
-    - scheme: default            # Light mode
+    - scheme: default
       primary: indigo
       accent: blue
       toggle:
         icon: material/weather-night
-        name: Switch to dark mode
-
-    - scheme: slate              # Dark mode
+        name: Passer en mode sombre
+    - scheme: slate
       primary: teal
       accent: deep orange
       toggle:
         icon: material/weather-sunny
-        name: Switch to light mode
+        name: Passer en mode clair
   features:
-    - navigation.tabs            # Top-level nav items shown as horizontal tabs
-    - navigation.top             # Back-to-top button when scrolling up
-    - navigation.instant         # chargement instantané les clics sur les liens internes sont interceptés et gérés via XHR 2 pour éviter de recharger toute la page 
-    - navigation.instant.progress # Progression du chargement de la page
-    - content.code.copy          # Copy button on all code blocks
-    
+    - navigation.tabs
+    - navigation.top
+    - navigation.instant
+    - navigation.instant.progress
+    - content.code.copy
 
 extra_css:
   - assets/css/extra.css
-extra_javascript:
-  - assets/js/cards.js
 
 markdown_extensions:
-  - md_in_html        # Allows Markdown inside HTML blocks (used for project cards)
-  - attr_list         # Allows adding CSS classes to elements: ![img](url){ .class }
-  - admonition        # Note/warning/tip boxes
-  - pymdownx.details  # Collapsible admonition blocks
-  - pymdownx.superfences
+  - md_in_html
+  - attr_list
+  - admonition
+  - footnotes
   - tables
+  - pymdownx.details
+  - pymdownx.superfences
   - pymdownx.blocks.caption
-  - pymdownx.emoji:   # Renders :material-icon: and :fontawesome-brands-icon: inline icons
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  
+  - toc:
+      permalink: true
+      title: Sur cette page
+
 plugins:
   - search
   - meta
   - mkdocs-jupyter
-  - awesome-pages # ajouts de macro
-  - macros #
-
+  - macros
   - blog:
       archive_date_format: MM/yyyy
       archive_url_date_format: MM/yyyy
       post_url_format: "{slug}"
-      pagination_per_page: 5 # Nombre d'article dans la page index du blog par page 
-      archive_pagination_per_page: 10 # Nombre d'article dans archive du blog 
-      categories_pagination_per_page: 10 # Nombre d'article dans catégorie du blog 
-
+      pagination_per_page: 5
+      archive_pagination_per_page: 10
+      categories_pagination_per_page: 10
 
 hooks:
-  - hooks/socialmedia.py  # pour partager les articles sur les réseaux sociaux sur (X, Facebook, Twitter)
+  - hooks/socialmedia.py
 
-  
-copyright: "Copyright &copy; Abdou Aziz Darc - Xootayu gox yi | simple/artixlinux **Localisation** "
+# ============================================================
+# NAVIGATION
+# Pour ajouter un projet : 
+#   1. Crée docs/projects/mon-projet.md avec le front matter
+#   2. Ajoute une ligne ici : - "Titre": projects/mon-projet.md
+#   La carte se génère automatiquement dans projects/index.md
+#
+# Pour ajouter une app :
+#   1. Crée docs/app/apps/mon-app.md ou .ipynb avec le front matter
+#   2. Ajoute une ligne ici : - "Titre": app/apps/mon-app.md
+#   La carte se génère automatiquement dans app/index.md
+# ============================================================
+nav:
+  - Accueil: index.md
+
+  - Réalisations:
+    - "Tous mes projets": project/index.md
+    # Ajouter ici les projets .md et .ipynb 
+    - "mangrove": project/projects/mangroves-weforest.md
+    - "sample project": project/projects/project.md
+    - "sample nootebook": project/projects/notebook.ipynb
+    - "project 4": project/projects/centrale-pv-kolda.ipynb
+    - "project 5": project/projects/pedologie-senegal.ipynb
+
+  - App:
+    - app/index.md
+    # Ajouter ici les apps .md et .ipynb
+    - "Geocoding SN": app/apps/test_1.md
+    - "Analyse NDVI": app/apps/test_2.ipynb
+    - "App 3": app/apps/metashape-batch.ipynb
+    - "App 4": app/apps/pyqgis-pdf-exporter.md
+    - "App 5": app/apps/webgis-viewer.ipynb
+
+  - Publications: publications.md
+
+  - Blog:
+    - blog/index.md
+
+  - Contact: contact.md
 
 extra:
+  generator: false
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/darcman0
+      name: GitHub — darcman0
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/darcman0
+      name: GitLab — darcman0
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/abdou-aziz-darc-678478169/
+      name: LinkedIn — Abdou Aziz Darc
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/channel/UCpCPomvreB7IL20DtQ7-F8Q
+      name: YouTube
 
-nav:
-  - Accueil: index.md
-  - Projets:
-    - "Tous mes projets": projects/index.md
-    - "Sample Project": projects/sample-project.md
-    - "Jupyter Notebook Project": projects/sample-notebook.ipynb
-    # HOW TO ADD A NEW PROJECT:
-    # 1. Copy docs/projects/sample-project.md to docs/projects/your-project-name.md
-    #    (or drop an .ipynb file into docs/projects/ for a Jupyter notebook project)
-    # 2. Edit the new file with your project content
-    # 3. Add a line below (same format): - "Your Project Title": projects/your-project-name.md
-    # 4. Add a project card on docs/projects/index.md
-  - Publications: publications.md
-  - App:
-    - app/index.md
-    - app/apps/test_1.md
-    - app/apps/test_2.ipynb
-  - Blog: 
-    - blog/index.md
-  - Contact: contact.md
+copyright: "Copyright &copy; 2025 Abdou Aziz Darc — Xootay Gox Yi"
