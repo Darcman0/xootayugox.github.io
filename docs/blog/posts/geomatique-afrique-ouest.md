@@ -97,13 +97,10 @@ C'est là que des projets comme **Sutura Maps** ont du sens — des outils pens�
 
 Chaque workflow que nous développons, chaque problème que nous résolvons, chaque carte que nous produisons peut aider un autre géomaticien à Dakar, Abidjan, Bamako ou Niamey. Ce blog en est une modeste tentative.
 
-*Every workflow we develop, every problem we solve, every map we produce can help another geomatician in Dakar, Abidjan, Bamako or Niamey. This blog is a modest attempt at that.*
 
 ### Former la génération suivante · Train the next generation
 
 Les compétences géomatiques ont une valeur économique réelle — cartographie foncière, agriculture de précision, gestion des ressources naturelles, urbanisme. Former des jeunes à ces outils, c'est leur ouvrir des débouchés concrets.
-
-*Geomatics skills have real economic value — land mapping, precision agriculture, natural resource management, urban planning. Training young people in these tools opens concrete career paths.*
 
 ---
 
@@ -111,13 +108,10 @@ Les compétences géomatiques ont une valeur économique réelle — cartographi
 
 La géomatique en Afrique de l'Ouest est à un tournant. Les outils existent. Les données deviennent accessibles. La formation se développe. Ce qui manque, c'est la masse critique de praticiens qui documentent, partagent, construisent et se positionnent comme des acteurs à part entière — pas comme des sous-traitants de projets conçus ailleurs.
 
-*Geomatics in West Africa is at a turning point. The tools exist. Data is becoming accessible. Training is developing. What's missing is the critical mass of practitioners who document, share, build and position themselves as full actors — not as subcontractors of projects designed elsewhere.*
-
 Nous y sommes presque.
 
-*We're almost there.*
+
 
 ---
 
-*Réflexion personnelle basée sur 5 ans de pratique terrain au Sénégal.*  
-*Personal reflection based on 5 years of field practice in Senegal.*
+*Réflexion personnelle basée sur 5 ans de pratique terrain au Sénégal.* 

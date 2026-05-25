@@ -10,11 +10,10 @@ description: Comment automatiser la génération de 78 PDF de cartes pédologiqu
 ---
 
 # Automatiser l'export PDF de 78 cartes avec PyQGIS
-*Automating the Export of 78 Maps to PDF with PyQGIS*
 
 Dans le cadre d'un projet de cartographie pédologique couvrant 78 parcelles sur 3 régions du Sénégal, j'avais besoin de générer 78 PDF de cartes individuelles automatiquement depuis QGIS. Voici exactement comment j'ai procédé.
 
-*During a pedological mapping project covering 78 parcels across 3 regions of Senegal, I needed to automatically generate 78 individual map PDFs from QGIS. Here's exactly how I did it.*
+
 
 <!-- more -->
 
@@ -25,8 +24,6 @@ Dans le cadre d'un projet de cartographie pédologique couvrant 78 parcelles sur
 Le projet consistait à cartographier 11 paramètres de fertilité des sols (N, P, K, Ca, Mg, Na, S, MO, CEC, pH, CE) sur 78 parcelles réparties dans 3 régions. Chaque parcelle devait avoir sa propre fiche cartographique en PDF, avec les valeurs du paramètre, la légende et les métadonnées de la parcelle.
 
 Faire ça manuellement = 78 exports × 11 paramètres = **858 opérations**. Inacceptable.
-
-*The project involved mapping 11 soil fertility parameters (N, P, K, Ca, Mg, Na, S, OM, CEC, pH, EC) across 78 parcels in 3 regions. Each parcel needed its own PDF map sheet with parameter values, legend and parcel metadata. Doing this manually = 78 exports × 11 parameters = **858 operations**. Not acceptable.*
 
 ---
 
@@ -39,12 +36,6 @@ Dans le gestionnaire de mise en page (Print Layout) :
 1. Activer **Atlas** dans le panneau de droite
 2. Définir la **couche de couverture** : ta couche de parcelles
 3. Cocher **Trier par** : identifiant de parcelle
-
-*In the Print Layout manager:*
-
-1. *Enable **Atlas** in the right panel*
-2. *Set the **Coverage layer**: your parcels layer*
-3. *Check **Sort by**: parcel identifier*
 
 ### 2. Expressions dynamiques dans la mise en page · Dynamic expressions in the layout
 
@@ -126,8 +117,6 @@ else:
 - Nommage automatique par identifiant de parcelle
 - Résolution 300 DPI prête pour impression
 
-*78 PDFs generated in under 4 minutes. Automatic naming by parcel ID. 300 DPI print-ready resolution.*
-
 ---
 
 ## Points d'attention · Watch out for
@@ -135,10 +124,6 @@ else:
 !!! warning "Chemins de fichiers · File paths"
     Sur Windows, utilise des slashs `/` ou doubles backslashs `\\` dans les chemins Python. Un seul `\` provoque des erreurs silencieuses.  
     *On Windows, use forward slashes `/` or double backslashes `\\` in Python paths.*
-
-!!! tip "Tester avant de lancer · Test before running"
-    Exporte d'abord 2 ou 3 pages manuellement depuis l'interface pour vérifier que le layout est correct avant de lancer le script complet.  
-    *Export 2–3 pages manually from the UI first to verify the layout is correct before running the full script.*
 
 ---
 
@@ -148,9 +133,7 @@ else:
 - Ajouter un **paramètre de filtre** pour n'exporter que les parcelles d'une région donnée
 - Générer un **fichier de log** CSV avec le statut de chaque export
 
-*Adapt the script to export to **PNG** or **SVG**: replace `exportToPdf` with `exportToImage`. Add a **filter parameter** to export only parcels from a given region. Generate a **CSV log file** with each export's status.*
-
 ---
 
 *Article rédigé à partir d'un projet réel de cartographie pédologique au Sénégal (2025).*  
-*Written from a real pedological mapping project in Senegal (2025).*
+

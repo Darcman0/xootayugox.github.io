@@ -4,7 +4,7 @@
 # Géographe · Géomaticien · Télépilote · Sénégal
 # ============================================================
 
-site_name: "Xootay Gox Yi"
+site_name: "Xootayu Gox Yi"
 site_description: "Cartographie, télédétection, drone et géomatique — tutoriels et réalisations par Abdou Aziz Darc, géomaticien au Sénégal."
 site_author: "Abdou Aziz Darc"
 site_url: "https://darcman0.github.io/xootayugox.github.io/"
@@ -16,9 +16,10 @@ theme:
     text: Merriweather Sans
     code: Roboto Mono
   language: fr
-  icon:
-    logo: simple/artixlinux
-    favicon: simple/artixlinux
+
+  logo: assets/images/favicon-XGY.svg
+  favicon: assets/images/favicon-XGY.svg
+
   palette:
     - scheme: default
       primary: indigo
@@ -133,4 +134,4 @@ extra:
       link: https://www.youtube.com/channel/UCpCPomvreB7IL20DtQ7-F8Q
       name: YouTube
 
-copyright: "Copyright &copy; 2025 Abdou Aziz Darc — Xootay Gox Yi"
+copyright: "Copyright &copy; 2025 Abdou Aziz Darc — Xootayu Gox Yi"

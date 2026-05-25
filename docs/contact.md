@@ -6,10 +6,10 @@ hide:
 
 # Contact
 
-Une mission, une collaboration, une question sur ce que vous avez trouvé ici — je suis disponible et joignable via les canaux ci-dessous.
+Une mission, une collaboration, une question sur ce que vous avez trouvé ici. Je suis disponible et joignable via les canaux ci-dessous.
 
 ---
-| Plateforme| ou|
+| Plateforme| lien|
 |---|---|
 | :material-email: **Email** | [darcman8@gmail.com](mailto:darcman8@gmail.com) |
 | :fontawesome-brands-github: **GitHub** | [github.com/darcman0](https://github.com/darcman0) |

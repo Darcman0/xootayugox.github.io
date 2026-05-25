@@ -113,12 +113,12 @@ Ce script, appliqué via le batch processing de Metashape sur des dossiers organ
 
 ## Ce que j'ai appris
 
-!!! success "Ce qui a bien fonctionné · What worked well"
+!!! success "Ce qui a bien fonctionné "
     - QField pour le suivi en temps réel des 300 sites : indispensable
     - Les vols tôt le matin (6h–9h) : lumière rasante, vent faible, mangroves encore humides donc contraste maximal
     - Recouvrement frontal/latéral à 80%/70% : moins de trous dans les zones denses
 
-!!! warning "Ce que je referais différemment · What I'd do differently"
+!!! warning "Ce que je referais différemment "
     - Prévoir des GCP même sur des zones plates : la précision verticale s'en ressent
     - Documenter les sites problématiques dès le terrain plutôt qu'en post-traitement
     - Utiliser systématiquement le Mavic 3 Entreprise (RTK intégré) plutôt que l'Air 2s pour les zones critiques
