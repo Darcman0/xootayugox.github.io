@@ -12,32 +12,39 @@ description: "Guide technique pour automatiser la récupération de données Kob
 
 # Connexion de l'API V1 de Kobotoolbox avec Microsoft Excel
 
-![Illustration](../assets/kobo_api_v1/article_presentation_img.jpg)
+![Illustration](../assets/kobo_api_v1/article_presentation_img.jpg){.img-center}
 
 ### Contexte et mise en œuvre
 On connaît tous la routine : se connecter à Kobo, exporter, nettoyer, puis importer dans Excel. C'est long, c'est pénible, et on finit toujours par travailler sur une version obsolète de la base. 
-<!-- more -->
+
 L'astuce ici, c'est d'utiliser l'API V1 de Kobotoolbox pour créer un pont direct entre le serveur et Excel.
 
 **1. Récupérer l'URL API**
-
 Connectez-vous à votre compte Kobo et allez ici : [https://kc.kobotoolbox.org/api/v1/data](https://kc.kobotoolbox.org/api/v1/data).
 
-!!! tip "Pourquoi cette étape ?"
-    Cette page est le point de passage obligé pour récupérer l'identifiant unique (ID) de votre formulaire. Sans cet ID, impossible de générer le lien de connexion automatique.
-
-Cliquez sur la flèche à côté de **GET**, sélectionnez **JSON**. La liste de vos projets s'affiche. Copiez l'URL du projet cible :
-`https://kc.kobotoolbox.org/api/v1/data/1964678?format=json`
+Cliquez sur la flèche à côté de **GET**, sélectionnez **JSON**.
 
 ![Fenetre API](../assets/kobo_api_v1/fenetre_API.png)
+
 ![Selection JSON](../assets/kobo_api_v1/API_json.png)
+
+Une nouvelle page s'ouvre, dans celle-ci vous aurez l’ensemble des formulaires que vous avez déployé.
+
+![Formulaires déployés](../assets/kobo_api_v1/formulaire_deploye.png){.img-center}
+
+À ce niveau, moi j'ai trois formulaires déployés dont l’ID est propre à chacun. En plus, il y a la description et le titre de chacun de ces formulaires, mais aussi l’URL menant à chacun des formulaires.
+
+`https://kc.kobotoolbox.org/api/v1/data/1964678?format=json`
+
+!!! tip "Astuce de navigation"
+    Ne lisez pas tout le code manuellement. Utilisez `Ctrl+F` (ou `Cmd+F` sur Mac) dans votre navigateur et tapez le nom de votre formulaire pour isoler immédiatement son bloc de données.
 
 **2. Configuration dans Excel**
 
 1. Ouvrez Excel, allez dans **Données** > **À partir du Web**.
 2. Collez l'URL.
 
-!!! danger "Le détail qui tue"
+!!! danger "Le détail important"
     Il faut impérativement remplacer le `?format=json` à la fin de l'URL par `.xlsx`. Si vous oubliez, Excel va chercher à lire du code JSON au lieu d'un tableau structuré, et ça ne fonctionnera pas.
 
 ![Configuration Web](../assets/kobo_api_v1/from_web_config.png)
@@ -68,6 +75,5 @@ Vos données sont liées au serveur Kobo. Plus besoin d'exporter à la main : re
 ![Données chargées](../assets/kobo_api_v1/kobo_sync_RT.png)
 
 ### Pour aller plus loin
-
 * [Documentation officielle de l'API Kobotoolbox](https://support.kobotoolbox.org/api.html)
 * Si les données sont confidentielles, laissez le projet privé et configurez une "Basic Auth" dans Excel avec vos identifiants Kobo au lieu d'ouvrir le partage public.
