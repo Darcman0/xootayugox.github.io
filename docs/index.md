@@ -2,6 +2,8 @@
 hide:
   - toc
   - navigation
+title: "Xootay Gox Yi | Géomatique, Cartographie & Photogrammétrie — Abdou Aziz Darc"
+description: "Portfolio et carnet de bord d'Abdou Aziz Darc. Retours d'expérience terrain et outils d'automatisation : SIG, photogrammétrie par drone et télédétection."
 ---
 
 ## Xootay Gox Yi
