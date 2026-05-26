@@ -16,7 +16,9 @@ description: "Guide technique pour automatiser la récupération de données Kob
 
 ### Contexte et mise en œuvre
 On connaît tous la routine : se connecter à Kobo, exporter, nettoyer, puis importer dans Excel. C'est long, c'est pénible, et on finit toujours par travailler sur une version obsolète de la base. 
+
 <!-- more -->
+
 L'astuce ici, c'est d'utiliser l'API V1 de Kobotoolbox pour créer un pont direct entre le serveur et Excel.
 
 **1. Récupérer l'URL API**
@@ -26,7 +28,7 @@ Cliquez sur la flèche à côté de **GET**, sélectionnez **JSON**.
 
 ![Fenetre API](../assets/kobo_api_v1/fenetre_API.png)
 
-![Selection JSON](../assets/kobo_api_v1/API_json.png)
+![Selection JSON](../assets/kobo_api_v1/API_json.png){.img-right}
 
 Une nouvelle page s'ouvre, dans celle-ci vous aurez l’ensemble des formulaires que vous avez déployé.
 
