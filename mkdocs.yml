@@ -110,7 +110,7 @@ nav:
   - Accueil: index.md
 
   - Réalisations:
-    - "Mes réalisations": realisations/index.md
+    #- "Mes réalisations": realisations/index.md
     # Ajouter ici les projets .md et .ipynb 
     #- "mangrove": realisations/projects/mangroves-weforest.md
     #- "sample project": realisations/projects/project.md
